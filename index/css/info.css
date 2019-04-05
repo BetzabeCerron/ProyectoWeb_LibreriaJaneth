@@ -1,0 +1,254 @@
+
+/*Informacion Categorias - Index*/
+
+#info{
+	background: #2984bd;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+#info .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.categoria{
+	margin: 20px;
+}
+
+.categoria img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border:7px solid #fff;
+}
+@media (min-width: 480px){
+	.categoria {
+		width: 40%;
+	}
+}
+@media (min-width: 1024px){
+	.categoria {
+		width: auto;
+	}
+}
+
+/*Enlace para los Productos - Productos*/
+#info #iraNuestrosProductos{
+	display: inline-block;
+	flex-wrap: wrap;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	border:3px solid #fff;
+	padding: 7px;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+
+
+/*Info-Productos*/
+#info_productos{
+	background: #fff;
+	color: #2984bd;
+	text-align: center;
+	padding: 20px;
+}
+#info_productos .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+#info_productos .categoria{
+	margin: 20px;
+}
+
+#info_productos .categoria img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border:7px solid #2984bd;
+}
+/*Informacíon de los Productos*/
+
+#info_productos h3{
+	color: #2984bd; 
+}
+
+/*Informacion de las Categorias*/
+.modal{
+	display: none;
+
+}
+.modal:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+
+}
+	
+#info_productos .modal h3{
+	font-size: 50px;
+	text-align: center;
+	margin: 30px 0 30px;
+	color: white;
+
+}
+
+.imagen{
+	width:  100%;
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.imagen a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.imagen a:nth-child(2){
+	margin:0;
+	height: 100%;
+	flex-shrink: 2; 
+
+}
+
+.imagen a img{
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #2984bd;
+	box-sizing: border-box;
+	border-radius: 5%;
+}
+
+.modal .cerrar{
+	display: block;
+	background: #fff;
+	width: 35px;
+	height: 35px;
+	margin:	15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+#info_productos .modal p{
+	font-size: 15px;
+	text-align: center;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 35%;
+	color: white;
+
+}
+
+/* Mostrar Queso Fresoo*/
+#imgQuesoFresco .imagen{
+	width:  100%;
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#imgQuesoFresco .imagen a img{
+	width: 350px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #2984bd;
+	box-sizing: border-box;
+	border-radius: 5%;
+}
+/* Mostrar Yogurt Guanabana*/
+#imgYogurt_Guanabana .imagen{
+	width:  100%;
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#imgYogurt_Guanabana .imagen a img{
+	width: 350px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #2984bd;
+	box-sizing: border-box;
+	border-radius: 5%;
+}
+
+/* Mostrar Helado Cumbre*/
+#imgHeladoCumbre .imagen{
+	width:  100%;
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#imgHeladoCumbre .imagen a img{
+	width: 350px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #2984bd;
+	box-sizing: border-box;
+	border-radius: 5%;
+}
+
+/*Info productos 1 - Productos*/
+
+#info_productos_c1{
+	background: #2984bd;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+#info_productos_c1 .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#info_productos_c1 .categoria{
+	margin: 20px;
+}
+
+#info_productos_c1 .categoria img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border:7px solid #fff;
+}
+
+/*Responsive*/
+@media (min-width: 480px){
+	.categoria {
+		width: 40%;
+	}
+}
+@media (min-width: 1024px){
+	.categoria {
+		width: auto;
+	}
+}
